@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function geek()
+{
+var
+name=document.getElementById("fname");
+var address=document.getElementById("address");
+var sub=document.getElementById("SUBJECT");
+var radios=document.getElementByName("yesno");
+var formvalid=false;
+if(name.value==""||name.value==null){
+window.alert("enter valid data");
+return false;
+}
+if(address.value=="")
+{
+window.alert("enter valid data");
